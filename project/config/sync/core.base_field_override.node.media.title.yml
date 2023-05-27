@@ -1,0 +1,18 @@
+uuid: f0db507c-f629-4456-98f6-4619db4f5a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.media
+id: node.media.title
+field_name: title
+entity_type: node
+bundle: media
+label: 'Name of License'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,29 @@
+uuid: 1fc53961-a459-4d10-82fc-fb173d54a231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file_of_license
+    - media.type.file_of_license
+    - node.type.media
+id: node.media.field_file_of_license
+field_name: field_file_of_license
+entity_type: node
+bundle: media
+label: 'File of license'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      file_of_license: file_of_license
+    sort:
+      field: field_media_file.target_id
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

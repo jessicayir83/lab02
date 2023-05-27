@@ -1,0 +1,27 @@
+uuid: 4822774b-d33f-4204-aa2d-2b1667bb20aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.file_of_license.field_media_file
+    - media.type.file_of_license
+  module:
+    - file
+id: media.file_of_license.default
+targetEntityType: media
+bundle: file_of_license
+mode: default
+content:
+  field_media_file:
+    type: file_default
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

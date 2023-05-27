@@ -1,0 +1,8 @@
+uuid: b8db8af8-3bff-400d-98c4-2109e8bede2c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type License'
+vid: type_license
+description: 'Here you can found types o licenses'
+weight: 0

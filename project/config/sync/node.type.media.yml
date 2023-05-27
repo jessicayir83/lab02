@@ -1,0 +1,18 @@
+uuid: 66980f85-cd08-4f21-8050-d1c1bcd98474
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Licenses
+type: media
+description: 'Create Lienses an adding files, since Media.'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

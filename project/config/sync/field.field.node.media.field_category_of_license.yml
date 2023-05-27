@@ -1,0 +1,29 @@
+uuid: e2116c01-8058-4e0b-a78f-0901a45de2d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category_of_license
+    - node.type.media
+    - taxonomy.vocabulary.type_license
+id: node.media.field_category_of_license
+field_name: field_category_of_license
+entity_type: node
+bundle: media
+label: 'Category of License'
+description: 'Select the category, do you want add file'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_license: type_license
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

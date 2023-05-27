@@ -1,0 +1,24 @@
+uuid: 608cdf58-113f-4cb2-bbca-9d32c79032f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.media.field_category_of_license
+    - field.field.node.media.field_file_of_license
+    - node.type.media
+  module:
+    - user
+id: node.media.teaser
+targetEntityType: node
+bundle: media
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category_of_license: true
+  field_file_of_license: true

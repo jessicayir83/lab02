@@ -1,0 +1,14 @@
+uuid: 46171150-aeba-4282-a53a-61276da809f8
+langcode: en
+status: true
+dependencies: {  }
+id: file_of_license
+label: 'File of license'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name
